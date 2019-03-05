@@ -10,8 +10,8 @@ public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_splash);
 
         // Esconde a ActionBar
         getSupportActionBar().hide();
@@ -24,7 +24,7 @@ public class SplashActivity extends AppCompatActivity {
                 // Depois de passa 2Segundos, ele irá abrir a MainActivity
                 startActivity(new Intent(getBaseContext(), MainActivity.class));
                 // Destroi a Activity atual
-              //  finish();
+                finish();
             }
         }, 2000);
     }
