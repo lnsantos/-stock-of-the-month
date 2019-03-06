@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                                 // Vai abrir a tela para cadastrar usuários no sistema
                                 startActivity(new Intent(MainActivity.this,NovoUsuarioActivity.class));
                                 // finaliza a activity atual
-                                finish();
+                                // finish();
                             }else {
                                 // aviso para o usuário
                                 /*
